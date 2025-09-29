@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Launch Redirect</title>
+</head>
+<body>
+  <button onclick="openInBlankTab()">Launch Site</button>
+
+  <script>
+    function openInBlankTab() {
+      const newTab = window.open('about:blank');
+      newTab.location.href = 'https://gamesfrog.com/games/nds/pokemon-platinum-version'; //L
+    }
+  </script>
+</body>
+</html>
