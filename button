@@ -5,6 +5,6 @@
 <script>
 document.getElementById('openUrlButton').addEventListener('click', function() {
     let newTab = window.open('about:blank', '_blank');
-    newTab.location.href = '';
+    newTab.location.href = 'https://gamesfrog.com/games/nds/pokemon-platinum-version';
 });
 </script>
